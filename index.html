@@ -24,6 +24,22 @@
             margin: 0;
         }
 
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1d3b6c;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         .container {
             max-width: 800px;
             margin: 30px auto;
@@ -58,16 +74,28 @@
         .button {
             background-color: #1d3b6c;
             color: white;
-            padding: 16px 32px; /* Increased padding */
+            padding: 16px 32px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            font-size: 18px; /* Increased font size */
-            width: 200px; /* Set a fixed width */
+            font-size: 18px;
+            width: 200px;
         }
 
         .button:hover {
             background-color: #1252a5;
+        }
+
+        .rules-section {
+            background-color: #e7f0ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .rules-section h3 {
+            font-size: 24px;
+            color: #1d3b6c;
         }
 
         footer {
@@ -82,6 +110,11 @@
     <header>
         <h1>IPL 2025 Mock Auction</h1>
     </header>
+
+    <nav>
+        <a href="#rules">Rules</a>
+        
+    </nav>
 
     <div class="container">
         <h2>📢 IPL 2025 Mock Auction Registration is Now Open! 📢</h2>
@@ -111,11 +144,90 @@
                 <h3>🏆 Limited Slots Available – Act Fast!</h3>
                 <p>Let’s make this auction the most thrilling yet!</p>
             </div>
+
+            <!-- Rules Section -->
+            <div class="rules-section" id="rules">
+                <h3>🌟 IPL 2025 MOCK AUCTION RULES 🌟</h3>
+
+                <h4>💰 TEAM PURSE: 150 CR</h4>
+
+                <h4>🔁 RETENTION ALLOWED:</h4>
+                <ul>
+                    <li>1st Player: 15 CR</li>
+                    <li>2nd Player: 12 CR</li>
+                </ul>
+
+                <h4>🔄 RTM CARDS: 1</h4>
+
+                <h4>🏏 PLAYER SQUAD:</h4>
+                <ul>
+                    <li>Total Players: 25</li>
+                    <li>Maximum Overseas Players: 8-9</li>
+                </ul>
+
+                <h4>🚨 IMPORTANT AUCTION RULES:</h4>
+                <ul>
+                    <li>🚫 No False Bids: Fair play is mandatory or face penalties!</li>
+                    <li>💰 Bid Fine: 10 CR Fine for price increase violations!</li>
+                    <li>🔢 Bid Limits: Max 2 Bids per auction round. Rejoining after 2 bids? 10 CR Fine!</li>
+                </ul>
+
+                <h4>📈 BID RULES:</h4>
+                <ul>
+                    <li>20L to 2 CR: Increase by 10L.</li>
+                    <li>2 CR to 10 CR: Increase by 20L.</li>
+                    <li>10 CR to Infinity: Increase by 50L.</li>
+                </ul>
+
+                <h4>🔄 TRADE RULES:</h4>
+                <ul>
+                    <li>⏳ Trade Window: All trades must occur within the designated trade window. No trades will be allowed after the window closes.</li>
+                    <li>🔁 Maximum Trades: Teams can execute up to 3 trades per auction season. This includes both incoming and outgoing players.</li>
+                    <li>⚖️ Fair Value Exchange: Trades must ensure fair player value. Comparable auction price, role, or skill set is required.</li>
+                    <li>🧑‍🤝‍🧑 Role-Based Trading: Stick to categories: Batsmen for batsmen, bowlers for bowlers. Cross-role trades require committee approval.</li>
+                    <li>🤝 Player & Team Consent: Trades require mutual consent from both teams and the player being traded. Forced trades are prohibited.</li>
+                    <li>💰 Transfer Fee: A 5% transfer fee of the player’s base price will be paid by the team acquiring the player.</li>
+                    <li>🚫 No Future Deals: No promises for future auctions or conditional agreements. Every trade must be a straight-up deal with no future strings attached.</li>
+                    <li>❌ No Favouritism: All trades will be reviewed impartially. Decisions will be based solely on fairness and merit.</li>
+                    <li>🚷 No Mid-Auction Trades: Trading during the live auction is prohibited. Trades must be completed either before or after the auction.</li>
+                    <li>✅ Trade Approval: Trades must be submitted for committee approval. They are valid only after official confirmation.</li>
+                    <li>🔒 Final Decision: The Auction Committee has the final say on all trades. Any unfair or non-compliant trades will be rejected to ensure fairness.</li>
+                </ul>
+
+                <h3>🌟 IPL 2025 REGIONAL PLAYER DRAFT 🌟</h3>
+
+                <p>🏏 <strong>Exciting New Rule for IPL 2025</strong><br>
+                Each team MUST draft 3 domestic players from their home region! This new rule adds local flavor and strengthens the bond between teams and their fans. Let’s build the future stars from our regions!</p>
+
+                <h4>📝 Draft Requirements:</h4>
+                <p>3 Players from your home region are required!<br>
+                Choose from the regional domestic circuit players.</p>
+
+                <h4>💸 Draft Fees:</h4>
+                <ul>
+                    <li>Category A (Top Performers): 3 CR</li>
+                    <li>Category B (Regular Domestic Players): 1.5 CR</li>
+                    <li>Category C (Rising Talents): 50 L</li>
+                </ul>
+
+                <h4>⏳ Draft Process:</h4>
+                <p>3 Rounds to pick your players.<br>
+                Draft in order of last season's rankings. The top-ranked team gets the first pick in the first round, and so on.</p>
+
+                <h4>🚨 Important Notes:</h4>
+                <ul>
+                    <li>📈 Ensure Compliance: Teams must comply with regional draft requirements or face penalties.</li>
+                    <li>🔄 No Replacements: Once drafted, players cannot be replaced unless injured. Ensure all drafted players are available for the season.</li>
+                    <li>📝 Draft Disputes: Any disputes during the draft must be resolved by the Auction Committee. Their decision is final.</li>
+                </ul>
+
+                <p>🎉 Get ready to make the most of this new rule and build a team that not only excels on the field but also resonates with the regional pride!</p>
+            </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 Cricket Universe | All rights reserved.</p>
+        <p>&copy; 2024 IPL Mock Auction | All rights reserved.</p>
     </footer>
 </body>
 </html>
